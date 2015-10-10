@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="FoldLineViewAttrs">
+        <attr name="direction" format="enum">
+            <enum name="left_up" value="0"/>
+            <enum name="left_down" value="1"/>
+            <enum name="right_up" value="2"/>
+            <enum name="right_down" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>

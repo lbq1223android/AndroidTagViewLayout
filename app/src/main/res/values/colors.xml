@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="indicator_red">#F3A08C</color>
+    <color name="text_gray_666666">#666666</color>
+    <color name="text_gray_999999">#999999</color>
+    <color name="ios_gray">#efeff4</color>
+
+    <color name="bg_color">#F2F2F2</color>
+    <color name="theme_color">#F94E6A</color>
+    <color name="theme_color2">#FFAAB6</color>
+    <color name="text_color">#60635D</color>
+</resources>
