@@ -32,7 +32,7 @@ Copy the TagViewLayout directory into your own project directory and add the lib
 // better call in a SplashActivity which is the first activity of the project
 DensityHelper.init(activity);
 ```  
-### step3
+### step 3
 Then add TagViewLayout into your layout.
 ```java
 <ntu.zss.tagviewlayout.TagViewLayout
