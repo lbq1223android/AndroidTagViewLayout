@@ -25,17 +25,23 @@ The TagViewLayout is subclass of RelativeLayout. It's the container of tagViews.
 
 ## Usage
 ### step 1
-    Clone this project into your computer and set up the environment of the project. Run the project to see what's going on.
+Clone this project into your computer and set up the environment of the project. Run the project to see what's going on.
 ### step 2
-    Copy the TagViewLayout directory into your own project directory and add the library to your project. Then add TagViewLayout into your layout.
+Copy the TagViewLayout directory into your own project directory and add the library to your project. Make sure that you have called DensityHelper.init(activity) before you setTags for tagViewLayout.
+```java
+// better call in a SplashActivity which is the first activity of the project
+DensityHelper.init(activity);
+```  
+### step3
+Then add TagViewLayout into your layout.
 ```java
 <ntu.zss.tagviewlayout.TagViewLayout
         android:id="@+id/tagViewLayout"
         android:layout_width="match_parent"
         android:layout_height="240dp" />
 ```  
-### step 3
-    Create some tagViews and add them to tagViewLayout.
+### step 4
+Create some tagViews and add them to tagViewLayout.
 ```java
 private void initTags()
 {
