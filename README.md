@@ -3,14 +3,14 @@
 Do you want to make your image more attractive and straightforward? Why not trying this fascinating TagViewLayout for Android platform? You can simply put tags on an image by just providing their locations, directions and of course texts.
 
 ## Demo
-![](https://github.com/ZhouShengsheng/AndroidTagViewLayout/tree/master/app/src/main/res/raw/tagViewLayout_demo.gif)
+![](https://raw.githubusercontent.com/ZhouShengsheng/AndroidTagViewLayout/master/app/src/main/res/raw/tagViewLayout_demo.gif)
 
 [Download Apk](https://github.com/ZhouShengsheng/AndroidTagViewLayout/blob/master/app/build/outputs/apk/app-debug.apk?raw=true)
 
 ## Contents
 - [Introduction](#introduction)
-- [TagView](#tagView)
-- [TagViewLayout](#tagViewLayout)
+- [TagView](#tagview)
+- [TagViewLayout](#tagviewlayout)
 - [Usage](#usage)
 - [License](#license)
 
