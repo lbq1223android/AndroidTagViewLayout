@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TagViewLayout</string>
+    <string name="title_activity_splash">TagViewLayout</string>
+
+    <string name="tv_name">Shengsheng</string>
+    <string name="tv_title">李敏镐、朴信惠街拍</string>
+    <string name="tv_follow">&#160;&#160;&#160;已关注&#160;&#160;&#160;</string>
+
+    <string name="btn_show_tags">显示标签</string>
+    <string name="btn_hide_tags">隐藏标签</string>
+    <string name="btn_play_animation">播放动画</string>
+    <string name="btn_stop_animation">停止动画</string>
+
+    <string name="tag_text_tag1">李敏镐同款衬衫</string>
+    <string name="tag_text_tag2">朴信惠淑女发型</string>
+    <string name="tag_text_tag3">彩虹棒棒糖</string>
+</resources>

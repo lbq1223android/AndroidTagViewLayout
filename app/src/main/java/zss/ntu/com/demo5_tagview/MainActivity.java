@@ -45,15 +45,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnStopAnimation.setOnClickListener(this);
 
         initTags();
-        displayTags();
+        tagViewLayout.postDelayed(new Runnable()
+        {
+            @Override
+            public void run()
+            {
+                displayTags();
+            }
+        }, 500);
     }
 
     private void initTags()
     {
         tags = new ArrayList<>();
-        tags.add(new TagItem(50, 200, "来自星星的你", TagItem.Direction.RIGHT_BOTTOM));
-        tags.add(new TagItem(600, 120, "叶良辰赵日天研究中心", TagItem.Direction.RIGHT_BOTTOM));
-        tags.add(new TagItem(300, 320, "爱剧购开发团队", TagItem.Direction.RIGHT_BOTTOM));
+        // add some tags for testing purpose
+        tags.add(new TagItem(DensityHelper.dp2px(28), DensityHelper.dp2px(162),
+                getString(R.string.tag_text_tag1), TagItem.Direction.RIGHT_TOP));
+        tags.add(new TagItem(DensityHelper.dp2px(230), DensityHelper.dp2px(50),
+                getString(R.string.tag_text_tag2), TagItem.Direction.LEFT_TOP));
+        tags.add(new TagItem(DensityHelper.dp2px(180), DensityHelper.dp2px(160),
+                getString(R.string.tag_text_tag3), TagItem.Direction.RIGHT_BOTTOM));
     }
 
     private void displayTags()

@@ -292,10 +292,16 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <!-- From: file:/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="app_name">Demo5_TagView</string>
+    <string name="app_name">TagViewLayout</string>
     <!-- From: file:/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <!-- From: file:/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="btn_hide_tags">Hide Tags</string>
+    <string name="btn_play_animation">Play Animation</string>
+    <string name="btn_show_tags">Show Tags</string>
+    <string name="btn_stop_animation">Stop Animation</string>
     <!-- From: file:/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/exploded-aar/AndroidTagViewLayout/RoundedImageView/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="define_roundedimageview"/>
@@ -313,7 +319,13 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <!-- From: file:/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="title_activity_splash">SplashActivity</string>
+    <string name="tag_text_tag1">Li\'s handsome cloth</string>
+    <string name="tag_text_tag2">Piao\'s sweet hairstyle</string>
+    <string name="tag_text_tag3">Rainbow Lollipop</string>
+    <string name="title_activity_splash">TagViewLayout</string>
+    <string name="tv_follow">   Followed   </string>
+    <string name="tv_name">Shengsheng</string>
+    <string name="tv_title">Li and Piao are hanging around.</string>
     <!-- From: file:/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

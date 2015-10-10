@@ -8,49 +8,43 @@
                 android:background="#000000"
                 android:id="@+id/rlRoot">
 
-    <!-- scene image -->
+    <!-- background image -->
     <ImageView
-        android:id="@+id/ivScene"
+        android:id="@+id/ivBackground"
         android:layout_width="match_parent"
         android:layout_height="240dp"
-        android:scaleType="fitXY"
+        android:scaleType="centerCrop"
         tools:ignore="contentDescription"
-        android:src="@drawable/circle_recommend_bg"/>
+        android:src="@drawable/tag_view_bg"/>
 
     <!-- favorite layout -->
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/gradient_white_black"
-        android:visibility="gone">
-        <RelativeLayout
-            android:id="@+id/rlFavorite"
+        android:id="@+id/rlFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true">
+        <ImageView
+            android:id="@+id/ivFavorite"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/icon_favorite"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/tvFavoriteCount"
             android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_alignParentRight="true">
-            <ImageView
-                android:id="@+id/ivFavorite"
-                android:layout_width="14dp"
-                android:layout_height="14dp"
-                android:src="@drawable/icon_favorite"
-                android:layout_centerVertical="true"/>
-            <TextView
-                android:id="@+id/tvFavoriteCount"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#FFFFFF"
-                android:maxWidth="36dp"
-                android:text="1024"
-                android:textSize="14sp"
-                android:layout_centerVertical="true"
-                android:layout_toRightOf="@id/ivFavorite"
-                android:layout_marginLeft="3dp"/>
-        </RelativeLayout>
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:maxWidth="36dp"
+            android:text="1024"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/ivFavorite"
+            android:layout_marginLeft="3dp"/>
     </RelativeLayout>
 
+    <!-- tagViewLayout  -->
     <ntu.zss.tagviewlayout.TagViewLayout
         android:id="@+id/tagViewLayout"
         android:layout_width="match_parent"
@@ -61,13 +55,14 @@
         android:layout_height="35dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_below="@id/tagViewLayout"/>
+        android:layout_below="@id/tagViewLayout"
+        app:direction="right_up"/>
 
     <!-- bottom layout -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_alignBottom="@id/ivScene"
+        android:layout_alignBottom="@id/ivBackground"
         android:background="@drawable/gradient_black_white">
         <com.makeramen.roundedimageview.RoundedImageView
             android:id="@+id/ivAvatar"
@@ -77,13 +72,13 @@
             android:layout_marginLeft="5dp"
             android:src="@drawable/avatar_shengsheng"
             app:riv_mutate_background="true"
-            app:riv_oval="false"
+            app:riv_oval="true"
             app:riv_border_color="#FFFFFF"
             app:riv_border_width="2dp"/>
         <TextView
             android:id="@+id/tvName"
             android:layout_width="wrap_content"
-            android:layout_height="18dp"
+            android:layout_height="20dp"
             android:layout_toRightOf="@id/ivAvatar"
             android:layout_alignTop="@id/ivAvatar"
             android:layout_marginLeft="5dp"
@@ -92,48 +87,39 @@
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:gravity="center"
-            android:text="叶良辰讨论组"/>
-        <TextView
-            android:id="@+id/tvTime"
-            android:layout_width="wrap_content"
-            android:layout_height="12dp"
-            android:layout_alignLeft="@id/tvName"
-            android:layout_below="@id/tvName"
-            android:singleLine="true"
-            android:textColor="#cccccc"
-            android:gravity="center"
-            android:textSize="9sp"
-            android:text="1小时前"/>
+            android:text="@string/tv_name"/>
         <TextView
             android:id="@+id/tvFollow"
             android:layout_width="wrap_content"
             android:layout_height="14dp"
             android:layout_toRightOf="@id/tvName"
             android:layout_alignTop="@id/tvName"
-            android:layout_marginTop="3.5dp"
+            android:layout_marginTop="5.5dp"
             android:layout_marginLeft="3dp"
             android:singleLine="true"
             android:textColor="#FFFFFF"
             android:textSize="9sp"
             android:gravity="center"
-            android:text="  已关注  "
+            android:text="@string/tv_follow"
             android:background="@drawable/follow_border_unfollowed"/>
 
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="match_parent"
-            android:layout_height="16dp"
+            android:layout_height="18dp"
             android:layout_alignLeft="@id/tvName"
-            android:layout_alignBottom="@id/ivAvatar"
+            android:layout_below="@id/tvName"
+            android:layout_marginTop="5dp"
             android:paddingRight="5dp"
             android:singleLine="true"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
             android:ellipsize="end"
             android:gravity="center|left"
-            android:text="这衣服炫酷叼炸天啊！"/>
+            android:text="@string/tv_title"/>
     </RelativeLayout>
 
+    <!-- function buttons -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -143,21 +129,21 @@
             android:id="@+id/btnShowTags"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="show tags"/>
+            android:text="@string/btn_show_tags"/>
         <Button
             android:id="@+id/btnHideTags"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="hide tags"/>
+            android:text="@string/btn_hide_tags"/>
         <Button
             android:id="@+id/btnStartAnimation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="play animation"/>
+            android:text="@string/btn_play_animation"/>
         <Button
             android:id="@+id/btnStopAnimation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="stop animation"/>
+            android:text="@string/btn_stop_animation"/>
     </LinearLayout>
 </RelativeLayout><!-- From: file:/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/src/main/res/layout/activity_main.xml -->

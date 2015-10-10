@@ -19,5 +19,23 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <!-- From: file:/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">TagViewLayout</string>
+    <string name="btn_hide_tags">隐藏标签</string>
+    <string name="btn_play_animation">播放动画</string>
+    <string name="btn_show_tags">显示标签</string>
+    <string name="btn_stop_animation">停止动画</string>
+    <!-- From: file:/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="tag_text_tag1">李敏镐同款衬衫</string>
+    <string name="tag_text_tag2">朴信惠淑女发型</string>
+    <string name="tag_text_tag3">彩虹棒棒糖</string>
+    <string name="title_activity_splash">TagViewLayout</string>
+    <string name="tv_follow">   已关注   </string>
+    <string name="tv_name">Shengsheng</string>
+    <string name="tv_title">李敏镐、朴信惠街拍</string>
 </resources>

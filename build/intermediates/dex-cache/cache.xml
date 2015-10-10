@@ -2,11 +2,60 @@
 <items version="2" >
 
     <item
+        jar="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/libs/nineoldandroids-library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/pre-dexed/debug/nineoldandroids-library-2.4.0-e5ded5db12de1e461a3c62341448a6b5e604061e.jar" />
+    </item>
+    <item
+        jar="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-5d187d75dd867f39b4b5957c0098368ba460786c.jar" />
+    </item>
+    <item
         jar="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
         <dex dex="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/pre-dexed/debug/classes-d9f8a5765e6971a6a72c11e207b7e9c4c9dbc7ee.jar" />
+    </item>
+    <item
+        jar="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/exploded-aar/AndroidTagViewLayout/RoundedImageView/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92b08cd196f3a55eb76bcf84148cb248529bd6b3">
+        <dex dex="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/pre-dexed/debug/classes-29414a868c4be3ca1dc7f6ded1bf78c5c904164c.jar" />
+    </item>
+    <item
+        jar="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/exploded-aar/AndroidTagViewLayout/TagViewLayout/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="835794157ef8f20aea873a7709fcd3c92c2427c9">
+        <dex dex="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/pre-dexed/debug/classes-598e4b48349f9edc7f51c31e99af6b5f7e138f98.jar" />
+    </item>
+    <item
+        jar="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/pre-dexed/debug/classes-c2f6288ffe6a58d42a6b101c3add4bd55027bfb5.jar" />
+    </item>
+    <item
+        jar="/Users/jackjones/Developer/tools/Android/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-ea0f62ba865f67fa528589415ec3092614e53cc4.jar" />
+    </item>
+    <item
+        jar="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/pre-dexed/debug/classes-eb4da8b1e7a782029021e65ee9b4b2288d44c84a.jar" />
     </item>
 
 </items>
