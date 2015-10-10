@@ -9,6 +9,11 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import ntu.zss.tagviewlayout.DensityHelper;
+import ntu.zss.tagviewlayout.TagItem;
+import ntu.zss.tagviewlayout.TagView;
+import ntu.zss.tagviewlayout.TagViewLayout;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener
 {
     private ArrayList<TagItem> tags;
@@ -24,8 +29,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        DensityHelper.init(this);
-
         tagViewLayout = (TagViewLayout)findViewById(R.id.tagViewLayout);
         ViewGroup.LayoutParams lp = tagViewLayout.getLayoutParams();
         lp.width = DensityHelper.screenWidth;
@@ -40,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnHideTags.setOnClickListener(this);
         btnStartAnimation.setOnClickListener(this);
         btnStopAnimation.setOnClickListener(this);
+
         initTags();
         displayTags();
     }

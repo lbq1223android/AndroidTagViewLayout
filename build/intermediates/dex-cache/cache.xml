@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/jackjones/Workspaces/AndroidProjects/Demo5_/app/libs/nineoldandroids-library-2.4.0.jar"
+        jar="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/jackjones/Workspaces/AndroidProjects/Demo5_/app/build/intermediates/pre-dexed/debug/nineoldandroids-library-2.4.0-f65615fd7b6d4629011ce9729620a1296e894676.jar" />
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/build/intermediates/pre-dexed/debug/classes-d9f8a5765e6971a6a72c11e207b7e9c4c9dbc7ee.jar" />
     </item>
 
 </items>

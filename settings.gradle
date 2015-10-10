@@ -1,1 +1,1 @@
-include ':app', ':RoundedImageView'
+include ':app', ':RoundedImageView', ':TagViewLayout'

@@ -51,18 +51,17 @@
         </RelativeLayout>
     </RelativeLayout>
 
-    <zss.ntu.com.demo5_tagview.TagViewLayout
+    <ntu.zss.tagviewlayout.TagViewLayout
         android:id="@+id/tagViewLayout"
         android:layout_width="match_parent"
         android:layout_height="240dp" />
     
-    <zss.ntu.com.demo5_tagview.FoldLineView
+    <ntu.zss.tagviewlayout.FoldLineView
         android:layout_width="45dp"
         android:layout_height="35dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_below="@id/tagViewLayout"
-        app:direction="right_down"/>
+        android:layout_below="@id/tagViewLayout"/>
 
     <!-- bottom layout -->
     <RelativeLayout
@@ -161,4 +160,4 @@
             android:layout_height="wrap_content"
             android:text="stop animation"/>
     </LinearLayout>
-</RelativeLayout><!-- From: file:/Users/jackjones/Workspaces/AndroidProjects/Demo5_/app/src/main/res/layout/activity_main.xml -->
+</RelativeLayout><!-- From: file:/Users/jackjones/Dropbox/Me/Github/Android/AndroidTagViewLayout/app/src/main/res/layout/activity_main.xml -->
