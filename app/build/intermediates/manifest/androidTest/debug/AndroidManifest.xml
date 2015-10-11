@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="zss.ntu.com.demo5_tagview.test">
+    package="ntu.zss.tagviewlayout_demo.test">
 
     <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="23" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="zss.ntu.com.demo5_tagview"
+                     android:targetPackage="ntu.zss.tagviewlayout_demo"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for zss.ntu.com.demo5_tagview"/>
+                     android:label="Tests for ntu.zss.tagviewlayout_demo"/>
 </manifest>

@@ -1,4 +1,4 @@
-package zss.ntu.com.demo5_tagview;
+package ntu.zss.tagviewlayout_demo;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
 import ntu.zss.tagviewlayout.DensityHelper;
+import zss.ntu.com.demo5_tagview.R;
 
 public class SplashActivity extends AppCompatActivity
 {

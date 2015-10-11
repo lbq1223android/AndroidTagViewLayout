@@ -1,4 +1,4 @@
-package zss.ntu.com.demo5_tagview;
+package ntu.zss.tagviewlayout_demo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -13,6 +13,7 @@ import ntu.zss.tagviewlayout.DensityHelper;
 import ntu.zss.tagviewlayout.TagItem;
 import ntu.zss.tagviewlayout.TagView;
 import ntu.zss.tagviewlayout.TagViewLayout;
+import zss.ntu.com.demo5_tagview.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener
 {
